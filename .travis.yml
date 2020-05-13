@@ -1,0 +1,6 @@
+os: osx
+osx_image: xcode11.3
+install: make get-deps
+language: c
+compiler: gcc
+script: ./configure && make && make test
