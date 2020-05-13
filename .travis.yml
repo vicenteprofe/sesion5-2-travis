@@ -1,4 +1,4 @@
-install: make get-deps
+install: make && make test
 language: c
 compiler: gcc
-script: ./configure && make && make test
+script: test
